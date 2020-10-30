@@ -26,37 +26,37 @@ namespace Raspisanije
             {
                 BackgroundColor = Color.White;
             }
-            //Фамилия и имя и группа.
+            //Группа
             zvanije = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.Blue, Text = "                  LOGITpv19               ", FontSize = 30 };
             grid.Children.Add(zvanije, 0, 0);
             Grid.SetColumnSpan(zvanije, 11);
 
-            //Понедельник.
+            //Понедельник
             pon = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.Blue, Text = "Понедельник       ", FontSize = 15 };
             grid.Children.Add(pon, 0, 1);
             Grid.SetColumnSpan(pon, 2);
 
-            //Вторник.
+            //Вторник
             vtor = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.Blue, Text = "Вторник      ", FontSize = 15 };
             grid.Children.Add(vtor, 0, 2);
             Grid.SetColumnSpan(vtor, 2);
 
-            //Среда.
+            //Среда
             sred = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.Blue, Text = "Среда      ", FontSize = 15 };
             grid.Children.Add(sred, 0, 3);
             Grid.SetColumnSpan(sred, 2);
 
-            //Четверг.
+            //Четверг
             tset = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.Blue, Text = "Четверг      ", FontSize = 15 };
             grid.Children.Add(tset, 0, 4);
             Grid.SetColumnSpan(tset, 2);
 
-            //Пятница.
+            //Пятница
             pjat = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.Blue, Text = "Пятница     ", FontSize = 15 };
             grid.Children.Add(pjat, 0, 5);
             Grid.SetColumnSpan(pjat, 2);
 
-            //Понедельник Keel.
+            //Понедельник Keel
             russkij = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.LightGreen, Text = "  Keel  ", FontSize = 15 };
             grid.Children.Add(russkij, 2, 1);
             Grid.SetColumnSpan(russkij, 2);
@@ -66,7 +66,7 @@ namespace Raspisanije
                 russkij = (Label)s;
                 MoreInfo();
             };
-            //Понедельник Võrgud ja seadm.
+            //Понедельник Võrgud ja seadm
 
             miha = new Label { HorizontalOptions = LayoutOptions.Center, BackgroundColor = Color.Beige, Text = "Võrgud ja seadm.", FontSize = 15 };
             grid.Children.Add(miha, 4, 1);
